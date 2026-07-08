@@ -110,9 +110,14 @@ An aspiring **Software Engineer** and **Cybersecurity Analyst** with a strong fo
 
 ### 📊 GitHub Stats
 
-📊 **My Development Streak & Stats**
+🔥 **Activity Overview & Language Breakdown**
+
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=NeoPhukubye&show_icons=true&theme=tokyonight&hide_border=true" alt="Neo's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NeoPhukubye&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Top Languages Bar Graph" />
+</p>
+
+<p align="left">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=NeoPhukubye&theme=tokyonight&hide_border=true" alt="Contribution Streak Graph" />
 </p>
 
 ---
