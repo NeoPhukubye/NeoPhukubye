@@ -16,92 +16,92 @@ An aspiring **Software Engineer** and **Cybersecurity Analyst** with a strong fo
 <table>
   <!-- Python -->
   <tr>
-    <td align="center" width="100">
-      <img src="https://skillicons.dev/icons?i=py" width="40" height="40" alt="Python" /><br><b>Python</b>
+    <td align="center" width="110">
+      <img src="https://skillicons.dev/icons?i=py" width="35" height="35" alt="Python" /><br><b>Python</b>
     </td>
     <td width="400">
-      <img src="https://geps.dev/progress/85?barColor=3776AB" alt="Python Progress" />
+      <img src="https://img.shields.io/badge/Usage-85%25-3776AB?style=flat-square&logoWidth=0" alt="Python Progress" width="300" height="20" />
     </td>
   </tr>
   <!-- Java -->
   <tr>
-    <td align="center" width="100">
-      <img src="https://skillicons.dev/icons?i=java" width="40" height="40" alt="Java" /><br><b>Java</b>
+    <td align="center" width="110">
+      <img src="https://skillicons.dev/icons?i=java" width="35" height="35" alt="Java" /><br><b>Java</b>
     </td>
     <td width="400">
-      <img src="https://geps.dev/progress/65?barColor=007396" alt="Java Progress" />
+      <img src="https://img.shields.io/badge/Usage-65%25-007396?style=flat-square&logoWidth=0" alt="Java Progress" width="300" height="20" />
     </td>
   </tr>
   <!-- HTML5 -->
   <tr>
-    <td align="center" width="100">
-      <img src="https://skillicons.dev/icons?i=html" width="40" height="40" alt="HTML5" /><br><b>HTML5</b>
+    <td align="center" width="110">
+      <img src="https://skillicons.dev/icons?i=html" width="35" height="35" alt="HTML5" /><br><b>HTML5</b>
     </td>
     <td width="400">
-      <img src="https://geps.dev/progress/80?barColor=E34F26" alt="HTML5 Progress" />
+      <img src="https://img.shields.io/badge/Usage-80%25-E34F26?style=flat-square&logoWidth=0" alt="HTML5 Progress" width="300" height="20" />
     </td>
   </tr>
   <!-- CSS3 -->
   <tr>
-    <td align="center" width="100">
-      <img src="https://skillicons.dev/icons?i=css" width="40" height="40" alt="CSS3" /><br><b>CSS3</b>
+    <td align="center" width="110">
+      <img src="https://skillicons.dev/icons?i=css" width="35" height="35" alt="CSS3" /><br><b>CSS3</b>
     </td>
     <td width="400">
-      <img src="https://geps.dev/progress/75?barColor=1572B6" alt="CSS3 Progress" />
+      <img src="https://img.shields.io/badge/Usage-75%25-1572B6?style=flat-square&logoWidth=0" alt="CSS3 Progress" width="300" height="20" />
     </td>
   </tr>
   <!-- Docker -->
   <tr>
-    <td align="center" width="100">
-      <img src="https://skillicons.dev/icons?i=docker" width="40" height="40" alt="Docker" /><br><b>Docker</b>
+    <td align="center" width="110">
+      <img src="https://skillicons.dev/icons?i=docker" width="35" height="35" alt="Docker" /><br><b>Docker</b>
     </td>
     <td width="400">
-      <img src="https://geps.dev/progress/55?barColor=2496ED" alt="Docker Progress" />
+      <img src="https://img.shields.io/badge/Usage-55%25-2496ED?style=flat-square&logoWidth=0" alt="Docker Progress" width="300" height="20" />
     </td>
   </tr>
   <!-- PostgreSQL -->
   <tr>
-    <td align="center" width="100">
-      <img src="https://skillicons.dev/icons?i=postgres" width="40" height="40" alt="PostgreSQL" /><br><b>PostgreSQL</b>
+    <td align="center" width="110">
+      <img src="https://skillicons.dev/icons?i=postgres" width="35" height="35" alt="PostgreSQL" /><br><b>PostgreSQL</b>
     </td>
     <td width="400">
-      <img src="https://geps.dev/progress/60?barColor=4169E1" alt="PostgreSQL Progress" />
+      <img src="https://img.shields.io/badge/Usage-60%25-4169E1?style=flat-square&logoWidth=0" alt="PostgreSQL Progress" width="300" height="20" />
     </td>
   </tr>
   <!-- Git -->
   <tr>
-    <td align="center" width="100">
-      <img src="https://skillicons.dev/icons?i=git" width="40" height="40" alt="Git" /><br><b>Git</b>
+    <td align="center" width="110">
+      <img src="https://skillicons.dev/icons?i=git" width="35" height="35" alt="Git" /><br><b>Git</b>
     </td>
     <td width="400">
-      <img src="https://geps.dev/progress/75?barColor=F05032" alt="Git Progress" />
+      <img src="https://img.shields.io/badge/Usage-75%25-F05032?style=flat-square&logoWidth=0" alt="Git Progress" width="300" height="20" />
     </td>
   </tr>
   <!-- GitLab -->
   <tr>
-    <td align="center" width="100">
-      <img src="https://skillicons.dev/icons?i=gitlab" width="40" height="40" alt="GitLab" /><br><b>GitLab</b>
+    <td align="center" width="110">
+      <img src="https://skillicons.dev/icons?i=gitlab" width="35" height="35" alt="GitLab" /><br><b>GitLab</b>
     </td>
     <td width="400">
-      <img src="https://geps.dev/progress/60?barColor=FC6D26" alt="GitLab Progress" />
+      <img src="https://img.shields.io/badge/Usage-60%25-FC6D26?style=flat-square&logoWidth=0" alt="GitLab Progress" width="300" height="20" />
     </td>
   </tr>
   <!-- Linux & Bash -->
   <tr>
-    <td align="center" width="100">
-      <img src="https://skillicons.dev/icons?i=linux" width="40" height="40" alt="Linux" /><br><b>Linux / Bash</b>
+    <td align="center" width="110">
+      <img src="https://skillicons.dev/icons?i=linux" width="35" height="35" alt="Linux" /><br><b>Linux / Bash</b>
     </td>
     <td width="400">
-      <img src="https://geps.dev/progress/65?barColor=FCC624" alt="Linux Progress" />
+      <img src="https://img.shields.io/badge/Usage-65%25-FCC624?style=flat-square&logoWidth=0" alt="Linux Progress" width="300" height="20" />
     </td>
   </tr>
   <!-- VS Code -->
   <tr>
-    <td align="center" width="100">
-      <img src="https://skillicons.dev/icons?i=vscode" width="40" height="40" alt="VS Code" /><br><b>VS Code</b>
+    <td align="center" width="110">
+      <img src="https://skillicons.dev/icons?i=vscode" width="35" height="35" alt="VS Code" /><br><b>VS Code</b>
     </td>
     <td width="400">
-      <img src="https://geps.dev/progress/85?barColor=007ACC" alt="VS Code Progress" />
+      <img src="https://img.shields.io/badge/Usage-85%25-007ACC?style=flat-square&logoWidth=0" alt="VS Code Progress" width="300" height="20" />
     </td>
   </tr>
 </table>
@@ -113,7 +113,7 @@ An aspiring **Software Engineer** and **Cybersecurity Analyst** with a strong fo
 🔥 **Activity Overview & Language Breakdown**
 
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NeoPhukubye&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Top Languages Bar Graph" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=NeoPhukubye&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Top Languages Bar Graph" />
 </p>
 
 <p align="left">
