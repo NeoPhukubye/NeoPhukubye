@@ -14,22 +14,40 @@ An aspiring **Software Engineer** and **Cybersecurity Analyst** with a strong fo
 ### 🛠️ Tech Stack & Tools
 
 <table>
+  <!-- Python -->
   <tr>
-    <td align="center" width="96">
-      <img src="https://techicons.dev/icons/python" width="48" height="48" alt="Python" />
-      <br>Python
+    <td align="center" width="100">
+      <img src="https://skillicons.dev/icons?i=py" width="40" height="40" alt="Python" /><br><b>Python</b>
     </td>
-    <td align="center" width="96">
-      <img src="https://techicons.dev/icons/java" width="48" height="48" alt="Java" />
-      <br>Java
+    <td width="400">
+      <img src="https://geps.dev/progress/85?barColor=3776AB" alt="Python Progress" />
     </td>
-    <td align="center" width="96">
-      <img src="https://techicons.dev/icons/git" width="48" height="48" alt="Git" />
-      <br>Git
+  </tr>
+  <!-- Java -->
+  <tr>
+    <td align="center" width="100">
+      <img src="https://skillicons.dev/icons?i=java" width="40" height="40" alt="Java" /><br><b>Java</b>
     </td>
-    <td align="center" width="96">
-      <img src="https://techicons.dev/icons/linux" width="48" height="48" alt="Linux" />
-      <br>Linux
+    <td width="400">
+      <img src="https://geps.dev/progress/65?barColor=007396" alt="Java Progress" />
+    </td>
+  </tr>
+  <!-- Git -->
+  <tr>
+    <td align="center" width="100">
+      <img src="https://skillicons.dev/icons?i=git" width="40" height="40" alt="Git" /><br><b>Git</b>
+    </td>
+    <td width="400">
+      <img src="https://geps.dev/progress/75?barColor=F05032" alt="Git Progress" />
+    </td>
+  </tr>
+  <!-- Linux -->
+  <tr>
+    <td align="center" width="100">
+      <img src="https://skillicons.dev/icons?i=linux" width="40" height="40" alt="Linux" /><br><b>Linux</b>
+    </td>
+    <td width="400">
+      <img src="https://geps.dev/progress/60?barColor=FCC624" alt="Linux Progress" />
     </td>
   </tr>
 </table>
