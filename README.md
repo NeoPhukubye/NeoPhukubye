@@ -2,7 +2,7 @@
 
 # Hi 👋, I'm Neo Phukubye
 
-### Junior Software Engineer | Full-Stack Developer | AI Engineering Enthusiast
+### Software Engineer | Full-Stack Developer | AI Engineering Enthusiast
 
 Building AI-powered applications, scalable backend systems, and modern full-stack solutions.
 
