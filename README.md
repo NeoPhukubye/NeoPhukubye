@@ -64,19 +64,19 @@ Software Engineering student at **WeThinkCode_** based in Midrand, South Africa.
 
 ---
 
-## GitHub Analytics
+## GitHub Streak
 
 <p align="center">
-  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=NeoPhukubye&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117"/>
-  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NeoPhukubye&layout=compact&theme=radical&hide_border=true&bg_color=0d1117"/>
+  <a href="https://git.io/streak-stats">
+    <img src="https://streak-stats.demolab.com?user=NeoPhukubye&theme=radical&hide_border=true&background=0D1117&ring=FF0080&fire=FF0080&currStreakLabel=00FFCC&sideLabels=00FFCC&dates=8892B0" alt="GitHub Streak"/>
+  </a>
 </p>
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=NeoPhukubye&theme=radical&hide_border=true&background=0d1117"/>
-</p>
+## GitHub Stats
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=NeoPhukubye&theme=radical&no-frame=true&column=7&margin-w=10"/>
+  <img height="170em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=NeoPhukubye&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&icon_color=00FFCC&title_color=FF0080"/>
+  <img height="170em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=NeoPhukubye&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=FF0080"/>
 </p>
 
 ---
