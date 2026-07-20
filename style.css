@@ -588,6 +588,7 @@ section {
         flex-direction: column;
         padding: 2rem;
         border-bottom: 1px solid var(--border);
+        gap: 1.5rem;
     }
 
     .nav-links.active {
@@ -598,28 +599,204 @@ section {
         display: flex;
     }
 
-    .about-content {
-        grid-template-columns: 1fr;
+    .container {
+        padding: 0 1.2rem;
     }
 
-    .about-stats {
-        justify-content: center;
+    section {
+        padding: 4rem 0;
+    }
+
+    .hero {
+        padding: 5rem 1.2rem 2rem;
+        min-height: 100svh;
     }
 
     .hero-title {
         font-size: 2.5rem;
     }
 
+    .hero-subtitle {
+        font-size: 0.95rem;
+    }
+
+    .hero-description {
+        font-size: 1rem;
+    }
+
+    .hero-cta {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn {
+        width: 100%;
+        max-width: 280px;
+        text-align: center;
+    }
+
+    .terminal-line {
+        font-size: 0.85rem;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .about-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .about-stats {
+        justify-content: space-around;
+        gap: 1rem;
+    }
+
+    .stat-number {
+        font-size: 1.5rem;
+    }
+
+    .about-terminal {
+        font-size: 0.85rem;
+    }
+
     .skills-grid {
         grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .skill-card {
+        padding: 1.5rem;
     }
 
     .projects-grid {
         grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .project-card {
+        padding: 1.5rem;
+    }
+
+    .project-card h3 {
+        font-size: 1.1rem;
     }
 
     .contact-links {
         flex-direction: column;
+        align-items: stretch;
+    }
+
+    .contact-card {
+        justify-content: center;
+    }
+
+    .contact-text {
+        font-size: 1rem;
+    }
+}
+
+/* Small phones */
+@media (max-width: 380px) {
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 0.85rem;
+    }
+
+    .about-stats {
+        flex-direction: column;
         align-items: center;
+    }
+
+    .nav-brand .glitch {
+        font-size: 1rem;
+    }
+}
+
+/* Tablet landscape */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .about-content {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Touch device improvements */
+@media (hover: none) {
+    .skill-card:hover,
+    .project-card:hover {
+        transform: none;
+    }
+
+    .btn-primary:hover {
+        background: var(--accent);
+        color: var(--bg-primary);
+        box-shadow: none;
+    }
+
+    .btn-outline:hover {
+        background: transparent;
+        color: var(--accent-secondary);
+        box-shadow: none;
+    }
+
+    .btn:active {
+        transform: scale(0.97);
+    }
+
+    .skill-card:active,
+    .project-card:active {
+        border-color: var(--accent);
+    }
+}
+
+/* Safe area for notched phones (iPhone X+) */
+@supports (padding: env(safe-area-inset-bottom)) {
+    .nav {
+        padding-left: max(2rem, env(safe-area-inset-left));
+        padding-right: max(2rem, env(safe-area-inset-right));
+    }
+
+    .footer {
+        padding-bottom: max(2rem, env(safe-area-inset-bottom));
+    }
+
+    .hero {
+        padding-top: max(6rem, env(safe-area-inset-top));
+    }
+}
+
+/* Reduce motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    .fade-in {
+        animation: none;
+        opacity: 1;
+    }
+
+    .cursor {
+        animation: none;
+        opacity: 1;
+    }
+
+    .skill-card,
+    .project-card {
+        transition: none;
     }
 }
