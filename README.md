@@ -1,336 +1,97 @@
 <div align="center">
 
-# Hi 👋, I'm Neo Phukubye
+# Neo Phukubye
 
-### Software Engineer | Full-Stack Developer | AI Engineering Enthusiast
+**Software Engineer | AI Systems Builder | Full-Stack Developer**
 
-Building AI-powered applications, scalable backend systems, and modern full-stack solutions.
+Building multi-agent AI systems, scalable backends, and production-ready applications.
 
-<p>
-<a href="https://github.com/NeoPhukubye">
-<img src="https://img.shields.io/github/followers/NeoPhukubye?label=Followers&style=for-the-badge">
-</a>
-
-<a href="https://github.com/NeoPhukubye">
-<img src="https://img.shields.io/github/stars/NeoPhukubye?affiliations=OWNER&style=for-the-badge">
-</a>
-
-<a href="https://www.linkedin.com/in/neo-p-bb21453a3">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin">
-</a>
-
-</p>
+[![GitHub followers](https://img.shields.io/github/followers/NeoPhukubye?style=for-the-badge&color=0d1117&labelColor=161b22)](https://github.com/NeoPhukubye)
+[![GitHub stars](https://img.shields.io/github/stars/NeoPhukubye?affiliations=OWNER&style=for-the-badge&color=0d1117&labelColor=161b22)](https://github.com/NeoPhukubye)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/neo-p-673717337/)
 
 </div>
 
 ---
 
-# 🚀 About Me
+## About
 
-I'm a Software Engineering student at **WeThinkCode_** with practical experience building production-ready software using modern technologies.
+Software Engineering student at **WeThinkCode_** based in Midrand, South Africa. I specialize in building AI-powered applications that combine multi-agent architectures, modern web frontends, and robust backend systems.
 
-My interests include:
-
-- 🤖 Artificial Intelligence
-- ⚙️ Backend Engineering
-- 🌐 Full-Stack Development
-- ☁️ Cloud Deployment
-- 🏗 Software Architecture
-
-I enjoy designing systems that solve real-world problems while continuously learning new technologies and software engineering best practices.
+**Core focus areas:** Multi-Agent AI Systems | Backend Engineering | Cloud-Native Applications | DevOps
 
 ---
 
-# 🛠 Tech Stack
+## Tech Stack
 
-## Languages
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python)
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square)
-
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript)
-
-![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square)
-
----
-
-## Frontend
-
-- React
-- HTML5
-- CSS3
+| Category | Technologies |
+|----------|-------------|
+| **Languages** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white) |
+| **Frontend** | ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Next.js](https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) |
+| **Backend** | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![REST APIs](https://img.shields.io/badge/REST-FF6C37?style=flat-square&logo=postman&logoColor=white) |
+| **AI/ML** | ![LLM Integration](https://img.shields.io/badge/LLM_Integration-412991?style=flat-square&logo=openai&logoColor=white) ![Multi-Agent Systems](https://img.shields.io/badge/Multi--Agent_AI-FF6F00?style=flat-square) ![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-00A67E?style=flat-square) |
+| **DevOps & Cloud** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white) ![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=white) |
+| **Tools** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white) ![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white) |
 
 ---
 
-## Backend
+## Featured Projects
 
-- FastAPI
-- REST APIs
-- JSON
-- Client-Server Architecture
+### AI & Multi-Agent Systems
 
----
+| Project | Description | Tech |
+|---------|-------------|------|
+| [**TruthLens AI**](https://github.com/NeoPhukubye/TruthLens-AI) | AI-powered misinformation detection and fact-checking platform | TypeScript |
+| [**FinPilot AI**](https://github.com/NeoPhukubye/FinPilot-AI) | Intelligent financial assistant for analysis and decision support | TypeScript |
+| [**PulsePM AI**](https://github.com/NeoPhukubye/PulsePM-AI) | 6 autonomous AI agents for project monitoring, risk prediction, and executive insights | JavaScript |
+| [**ForgeMind OS**](https://github.com/NeoPhukubye/Forgemind-OS) | Multi-agent AI operating system for software engineering workflows | TypeScript |
+| [**VibeCoach AI Mentor**](https://github.com/NeoPhukubye/VibeCoach-AI-Mentor) | AI-powered mentoring platform with sentiment analysis | TypeScript |
+| [**ForgeMind AI**](https://github.com/NeoPhukubye/ForgeMind-AI) | Multi-agent AI software engineering assistant (AMD Developer Hackathon) | JavaScript |
 
-## AI Engineering
+### Infrastructure & DevOps
 
-- Prompt Engineering
-- AI Model Evaluation
-- AI-assisted Development
-- LLM Integration
+| Project | Description | Tech |
+|---------|-------------|------|
+| [**ForgePipeline AI**](https://github.com/NeoPhukubye/ForgePipeline-AI) | Agentic cloud platform for Docker containerization and deployment | TypeScript |
+| [**PAAS Command Center**](https://github.com/NeoPhukubye/PAAS-Command-Center) | AI-native enterprise command center integrating DevOps + Snowflake Cortex | Python |
 
----
+### Other
 
-## DevOps & Cloud
-
-- GitHub Actions
-- Render
-- GitHub Pages
-- CI/CD
-
----
-
-## Developer Tools
-
-- Git
-- GitHub
-- GitLab
-- Maven
-- IntelliJ IDEA
-- VS Code
-- Linux (Ubuntu / Pop!_OS)
+| Project | Description | Tech |
+|---------|-------------|------|
+| [**Gridlock 808**](https://github.com/NeoPhukubye/gridlock-808) | Multiplayer cyberpunk hacking game for Game Boy Advance | C++ |
+| [**Radeon Hackathon 2026**](https://github.com/NeoPhukubye/Radeon-hackathon-2026-07) | AMD Radeon hackathon project (July 2026) | Python |
 
 ---
 
-## Software Engineering
-
-- Object-Oriented Programming
-- Data Structures
-- Algorithms
-- Unit Testing
-- Debugging
-- Agile Development
-
----
-
-# ⭐ Featured Projects
-
-## 🧠 ForgeMind AI
-
-AI-powered software engineering assistant capable of planning, designing, and generating software architecture.
-
-### Technologies
-
-React
-
-FastAPI
-
-Python
-
-REST APIs
-
-GitHub Actions
-
-Render
-
-GitHub Pages
-
----
-
-## ☁️ PAAS Command Center
-
-Cloud-ready command center built around backend services, automation workflows, and scalable API architecture.
-
-### Technologies
-
-Python
-
-FastAPI
-
-REST APIs
-
-Automation
-
-Backend Development
-
----
-
-## 🤖 Robot World
-
-Collaborative client-server application.
-
-### My Role
-
-Client Lead
-
-### Responsibilities
-
-- Client communication
-- JSON request handling
-- API integration
-- Testing
-- Agile collaboration
-
----
-
-## ⚡ FastAPI Backend Projects
-
-Collection of backend APIs and command-line tools demonstrating:
-
-- Validation
-- Testing
-- Modular Architecture
-- RESTful APIs
-
----
-
-## ☕
-
-Java Object-Oriented Projects
-
-- Encapsulation
-- Inheritance
-- Polymorphism
-- Maven
-- Software Design
-
----
-
-## 🧠 AI Code Evaluation
-
-Projects involving:
-
-- AI code review
-- Prompt Engineering
-- Software quality
-- Algorithm optimization
-
----
-
-# 📈 GitHub Analytics
+## GitHub Analytics
 
 <p align="center">
+  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=NeoPhukubye&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117"/>
+  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NeoPhukubye&layout=compact&theme=radical&hide_border=true&bg_color=0d1117"/>
+</p>
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=NeoPhukubye&show_icons=true&theme=tokyonight"/>
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=NeoPhukubye&theme=radical&hide_border=true&background=0d1117"/>
+</p>
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NeoPhukubye&layout=compact&theme=tokyonight"/>
-
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=NeoPhukubye&theme=radical&no-frame=true&column=7&margin-w=10"/>
 </p>
 
 ---
 
-<p align="center">
+## Current Focus
 
-<img src="https://streak-stats.demolab.com?user=NeoPhukubye&theme=tokyonight"/>
-
-</p>
-
----
-
-# 🏆 GitHub Trophies
-
-<p align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=NeoPhukubye&theme=tokyonight&margin-w=15"/>
-
-</p>
-
----
-
-# 📊 Current Focus
-
-- AI Engineering
-- Backend Development
-- Full-Stack Applications
-- Software Architecture
-- Cloud Computing
-- DevOps
-- Open Source
-
----
-
-# 🎯 2026 Goals
-
-- Build production-ready AI products
-- Contribute to Open Source
-- Land a Software Engineering role
-- Grow as a Backend Engineer
-- Learn Kubernetes
-- Learn Docker
-- Master System Design
-
----
-
-# 📌 Repository Structure
-
-Every major repository follows this structure:
-
-```text
-📁 Project Name
-
-📖 Overview
-
-✨ Features
-
-🏗 Architecture
-
-🛠 Technologies
-
-📂 Project Structure
-
-🚀 Installation
-
-▶️ Usage
-
-📸 Screenshots
-
-🎥 Demo
-
-🧪 Testing
-
-🗺 Roadmap
-
-🤝 Contributing
-
-📄 License
-```
-
----
-
-# 🌟 Pinned Repositories
-
-Pin these six repositories:
-
-🥇 ForgeMind AI
-
-🥈 PAAS Command Center
-
-🥉 Robot World
-
-⭐ FastAPI Backend Project
-
-⭐ Java Object-Oriented Integration System
-
-⭐ Best React Project
-
----
-
-# 🤝 Connect With Me
-
-💻 GitHub
-
-https://github.com/NeoPhukubye
-
-💼 LinkedIn
-
-https://linkedin.com/in/neo-p-bb21453a3
+- Competing in hackathons (AMD Radeon, AI challenges)
+- Building production multi-agent AI systems
+- Contributing to open source
+- Mastering Docker, Kubernetes, and cloud-native architecture
 
 ---
 
 <div align="center">
 
-### "Building software that makes an impact."
-
-⭐ Thank you for visiting my profile!
+**"Building intelligent systems that solve real problems."**
 
 </div>
