@@ -68,7 +68,7 @@ Software Engineering student at **WeThinkCode_** based in Midrand, South Africa.
 
 <p align="center">
   <a href="https://git.io/streak-stats">
-    <img src="https://streak-stats.demolab.com?user=NeoPhukubye&theme=radical&hide_border=true&background=0D1117&ring=FF0080&fire=FF0080&currStreakLabel=00FFCC&sideLabels=00FFCC&dates=8892B0" alt="GitHub Streak"/>
+    <img src="https://streak-stats.demolab.com?user=NeoPhukubye&theme=radical&hide_border=true&background=0D1117&ring=FF0080&fire=FF0080&currStreakLabel=00FFCC&sideLabels=00FFCC&dates=8892B0&cache_seconds=0" alt="GitHub Streak"/>
   </a>
 </p>
 
