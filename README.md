@@ -75,8 +75,8 @@ Software Engineering student at **WeThinkCode_** based in Midrand, South Africa.
 ## GitHub Stats
 
 <p align="center">
-  <img height="170em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=NeoPhukubye&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&icon_color=00FFCC&title_color=FF0080"/>
-  <img height="170em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=NeoPhukubye&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=FF0080"/>
+  <img height="170em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=NeoPhukubye&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&icon_color=00FFCC&title_color=FF0080"/>
+  <img height="170em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=NeoPhukubye&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=FF0080"/>
 </p>
 
 ---
