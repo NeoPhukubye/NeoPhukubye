@@ -772,7 +772,7 @@ section {
     }
 }
 
-/* Safe area for notched phones (iPhone X+) */
+/* Safe area for notched phones */
 @supports (padding: env(safe-area-inset-bottom)) {
     .nav {
         padding-left: max(2rem, env(safe-area-inset-left));
