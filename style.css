@@ -136,6 +136,7 @@ body {
 .hero-content {
     text-align: center;
     z-index: 2;
+    max-width: 800px;
 }
 
 .terminal-line {
@@ -161,33 +162,51 @@ body {
 }
 
 .hero-title {
-    font-size: clamp(3rem, 8vw, 6rem);
+    font-size: clamp(2.2rem, 5vw, 3.5rem);
     font-weight: 800;
     background: linear-gradient(135deg, var(--accent), var(--accent-secondary));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    margin-bottom: 1rem;
-    line-height: 1.1;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
 }
 
 .hero-subtitle {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: var(--text-secondary);
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.7;
+}
+
+.hero-stats {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+    flex-wrap: wrap;
+}
+
+.hero-stats .stat {
+    text-align: center;
+}
+
+.stat-number {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--accent);
     font-family: var(--font-mono);
 }
 
-.separator {
-    color: var(--accent);
-    margin: 0 0.3rem;
-}
-
-.hero-description {
-    font-size: 1.1rem;
+.stat-label {
+    font-size: 0.8rem;
     color: var(--text-secondary);
-    max-width: 600px;
-    margin: 0 auto 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .hero-cta {
@@ -212,6 +231,7 @@ body {
     background: var(--accent);
     color: var(--bg-primary);
     border: 2px solid var(--accent);
+    font-weight: 700;
 }
 
 .btn-primary:hover {
@@ -230,6 +250,11 @@ body {
     background: var(--accent-secondary);
     color: white;
     box-shadow: 0 0 20px rgba(255, 0, 128, 0.3);
+}
+
+.btn-large {
+    padding: 1.2rem 3rem;
+    font-size: 1.1rem;
 }
 
 .hero-grid {
@@ -270,35 +295,25 @@ section {
     color: var(--text-secondary);
     margin-bottom: 1.5rem;
     font-size: 1.05rem;
+    line-height: 1.8;
 }
 
 .about-text strong {
     color: var(--accent);
 }
 
-.about-stats {
-    display: flex;
-    gap: 2rem;
-    margin-top: 2rem;
-}
-
-.stat {
-    text-align: center;
-}
-
-.stat-number {
-    display: block;
-    font-size: 2rem;
-    font-weight: 800;
+.inline-cta {
     color: var(--accent);
-    font-family: var(--font-mono);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 1px;
+    transition: all 0.3s;
+    font-weight: 600;
 }
 
-.stat-label {
-    font-size: 0.8rem;
-    color: var(--text-secondary);
-    text-transform: uppercase;
-    letter-spacing: 1px;
+.inline-cta:hover {
+    color: var(--accent-secondary);
+    border-color: var(--accent-secondary);
 }
 
 .about-terminal {
@@ -357,7 +372,7 @@ section {
 /* Skills */
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 1.5rem;
 }
 
@@ -404,18 +419,24 @@ section {
     border: 1px solid var(--border);
 }
 
-/* Projects */
+/* Projects / Case Studies */
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 1.5rem;
 }
 
+.projects-grid.case-studies {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    max-width: 800px;
+}
+
 .project-card {
     background: var(--bg-card);
     border: 1px solid var(--border);
     border-radius: 8px;
-    padding: 2rem;
+    padding: 2.5rem;
     transition: all 0.3s;
     display: flex;
     flex-direction: column;
@@ -451,30 +472,25 @@ section {
     letter-spacing: 1px;
 }
 
-.project-status {
-    font-size: 0.7rem;
-    padding: 0.2rem 0.6rem;
-    border-radius: 3px;
-    font-family: var(--font-mono);
-}
-
-.project-status.live {
-    background: rgba(0, 255, 128, 0.1);
-    color: #00ff80;
-    border: 1px solid rgba(0, 255, 128, 0.3);
-}
-
 .project-card h3 {
-    font-size: 1.3rem;
-    margin-bottom: 0.75rem;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
     color: var(--text-primary);
+}
+
+.project-headline {
+    font-size: 1.1rem;
+    color: var(--accent-secondary);
+    font-style: italic;
+    margin-bottom: 1rem;
+    font-weight: 500;
 }
 
 .project-card p {
     color: var(--text-secondary);
     font-size: 0.95rem;
     margin-bottom: 1.5rem;
-    flex-grow: 1;
+    line-height: 1.7;
 }
 
 .project-tech {
@@ -514,37 +530,37 @@ section {
     color: var(--text-secondary);
     font-size: 1.1rem;
     max-width: 600px;
-    margin: 0 auto 3rem;
+    margin: 0 auto 2.5rem;
 }
 
-.contact-links {
+.contact-primary {
+    margin-bottom: 2.5rem;
+}
+
+.contact-secondary {
     display: flex;
     justify-content: center;
     gap: 2rem;
     flex-wrap: wrap;
 }
 
-.contact-card {
+.contact-link {
     display: flex;
     align-items: center;
-    gap: 0.75rem;
-    padding: 1rem 2rem;
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    color: var(--text-primary);
+    gap: 0.5rem;
+    color: var(--text-secondary);
     text-decoration: none;
-    transition: all 0.3s;
     font-family: var(--font-mono);
+    font-size: 0.85rem;
+    transition: color 0.3s;
+    padding: 0.5rem 0;
 }
 
-.contact-card:hover {
-    border-color: var(--accent);
-    box-shadow: 0 0 20px rgba(0, 255, 204, 0.15);
+.contact-link:hover {
     color: var(--accent);
 }
 
-.contact-card svg {
+.contact-link svg {
     width: 20px;
     height: 20px;
 }
@@ -613,15 +629,19 @@ section {
     }
 
     .hero-title {
-        font-size: 2.5rem;
+        font-size: 1.8rem;
     }
 
     .hero-subtitle {
         font-size: 0.95rem;
     }
 
-    .hero-description {
-        font-size: 1rem;
+    .hero-stats {
+        gap: 1.5rem;
+    }
+
+    .stat-number {
+        font-size: 2rem;
     }
 
     .hero-cta {
@@ -633,6 +653,11 @@ section {
         width: 100%;
         max-width: 280px;
         text-align: center;
+    }
+
+    .btn-large {
+        padding: 1rem 2rem;
+        font-size: 1rem;
     }
 
     .terminal-line {
@@ -649,15 +674,6 @@ section {
         gap: 2rem;
     }
 
-    .about-stats {
-        justify-content: space-around;
-        gap: 1rem;
-    }
-
-    .stat-number {
-        font-size: 1.5rem;
-    }
-
     .about-terminal {
         font-size: 0.85rem;
     }
@@ -671,9 +687,10 @@ section {
         padding: 1.5rem;
     }
 
-    .projects-grid {
+    .projects-grid,
+    .projects-grid.case-studies {
         grid-template-columns: 1fr;
-        gap: 1rem;
+        gap: 1.5rem;
     }
 
     .project-card {
@@ -681,16 +698,12 @@ section {
     }
 
     .project-card h3 {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
 
-    .contact-links {
+    .contact-secondary {
         flex-direction: column;
-        align-items: stretch;
-    }
-
-    .contact-card {
-        justify-content: center;
+        align-items: center;
     }
 
     .contact-text {
@@ -701,16 +714,16 @@ section {
 /* Small phones */
 @media (max-width: 380px) {
     .hero-title {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .hero-subtitle {
         font-size: 0.85rem;
     }
 
-    .about-stats {
+    .hero-stats {
         flex-direction: column;
-        align-items: center;
+        gap: 1rem;
     }
 
     .nav-brand .glitch {
@@ -726,10 +739,6 @@ section {
     }
 
     .skills-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .projects-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 }
