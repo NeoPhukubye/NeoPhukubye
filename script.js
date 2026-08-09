@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Typing effect
     const phrases = [
-        'initializing portfolio...',
-        'loading projects...',
-        'connecting agents...',
+        'initializing agents...',
+        'coordinating systems...',
+        'deploying to production...',
         'system ready.'
     ];
     const typedEl = document.getElementById('typed-text');
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (!isDeleting && charIndex === current.length) {
             delay = 2000;
-            if (phraseIndex === phrases.length - 1) return; // stop on last phrase
+            if (phraseIndex === phrases.length - 1) return;
             isDeleting = true;
         } else if (isDeleting && charIndex === 0) {
             isDeleting = false;
@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }, { threshold: 0.1 });
 
-    document.querySelectorAll('.skill-card, .project-card, .about-content, .contact-links').forEach(el => {
+    document.querySelectorAll('.skill-card, .project-card, .about-content, .contact-primary, .contact-secondary').forEach(el => {
         observer.observe(el);
     });
 
