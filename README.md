@@ -41,25 +41,29 @@ Software Engineering student at **WeThinkCode_** based in Midrand, South Africa.
 
 | Project | Description | Tech |
 |---------|-------------|------|
+| [**MaliMind AI**](https://github.com/NeoPhukubye/MaliMind-AI) | AI-powered intelligent assistant | JavaScript |
 | [**TruthLens AI**](https://github.com/NeoPhukubye/TruthLens-AI) | AI-powered misinformation detection and fact-checking platform | TypeScript |
+| [**Momo SmartMoney AI**](https://github.com/NeoPhukubye/Momo-SmartMoney-AI) | Smart money management AI assistant | Python |
 | [**FinPilot AI**](https://github.com/NeoPhukubye/FinPilot-AI) | Intelligent financial assistant for analysis and decision support | TypeScript |
 | [**PulsePM AI**](https://github.com/NeoPhukubye/PulsePM-AI) | 6 autonomous AI agents for project monitoring, risk prediction, and executive insights | JavaScript |
 | [**ForgeMind OS**](https://github.com/NeoPhukubye/Forgemind-OS) | Multi-agent AI operating system for software engineering workflows | TypeScript |
-| [**VibeCoach AI Mentor**](https://github.com/NeoPhukubye/VibeCoach-AI-Mentor) | AI-powered mentoring platform with sentiment analysis | TypeScript |
-| [**ForgeMind AI**](https://github.com/NeoPhukubye/ForgeMind-AI) | Multi-agent AI software engineering assistant (AMD Developer Hackathon) | JavaScript |
+| [**VibeCoach AI Mentor**](https://github.com/NeoPhukubye/vibecoach-ai-mentor) | AI-powered mentoring platform with sentiment analysis and personalized coaching | TypeScript |
+| [**ForgeMind AI**](https://github.com/NeoPhukubye/forgemind-ai) | Multi-agent AI software engineering assistant (AMD Developer Hackathon) | JavaScript |
 
 ### Infrastructure & DevOps
 
 | Project | Description | Tech |
 |---------|-------------|------|
-| [**ForgePipeline AI**](https://github.com/NeoPhukubye/ForgePipeline-AI) | Agentic cloud platform for Docker containerization and deployment | TypeScript |
-| [**PAAS Command Center**](https://github.com/NeoPhukubye/PAAS-Command-Center) | AI-native enterprise command center integrating DevOps + Snowflake Cortex | Python |
+| [**ForgePipeline AI**](https://github.com/NeoPhukubye/ForgePipeline-AI) | Agentic cloud platform for Docker containerization and deployment automation | Python |
+| [**PAAS Command Center**](https://github.com/NeoPhukubye/paas-command-center) | AI-native enterprise command center integrating DevOps + Snowflake Cortex | Python |
+| [**Automated E2E & API Test Suite**](https://github.com/NeoPhukubye/Automated-E2E--API-Test-Suite) | Comprehensive end-to-end and API automated test framework for SaaS platforms | Python |
 
 ### Other
 
 | Project | Description | Tech |
 |---------|-------------|------|
-| [**Gridlock 808**](https://github.com/NeoPhukubye/gridlock-808) | Multiplayer cyberpunk hacking game for Game Boy Advance | C++ |
+| [**God's Grace Bakery**](https://github.com/NeoPhukubye/god-s-grace-bakery) | Bakery business web application | JavaScript |
+| [**Gridlock 808**](https://github.com/NeoPhukubye/gridlock-808) | Multiplayer cyberpunk hacking game for Game Boy Advance (GBA Jam 2026) | C++ |
 | [**Radeon Hackathon 2026**](https://github.com/NeoPhukubye/Radeon-hackathon-2026-07) | AMD Radeon hackathon project (July 2026) | Python |
 
 ---
