@@ -47,6 +47,8 @@ Software Engineering student at **WeThinkCode_** based in Midrand, South Africa.
 | [**ForgeMind OS**](https://github.com/NeoPhukubye/Forgemind-OS) | Multi-agent AI operating system for software engineering workflows | TypeScript |
 | [**VibeCoach AI Mentor**](https://github.com/NeoPhukubye/vibecoach-ai-mentor) | AI-powered mentoring platform with sentiment analysis and personalized coaching | TypeScript |
 | [**ForgeMind AI**](https://github.com/NeoPhukubye/forgemind-ai) | Multi-agent AI software engineering assistant (AMD Developer Hackathon) | JavaScript |
+| [**FlowStateAssist**](https://github.com/NeoPhukubye/FlowStateAssist) | AI executive dysfunction decomposer & micro-step pacer for ADHD/TBI/chronic fatigue | Python |
+| [**Support Agent**](https://github.com/NeoPhukubye/Support_Agent) | Agentic AI customer support with LangGraph, vector KB, and human escalation (AWS Hackathon) | JavaScript |
 
 ### ✨ Infrastructure & DevOps
 
@@ -63,6 +65,7 @@ Software Engineering student at **WeThinkCode_** based in Midrand, South Africa.
 | [**God's Grace Bakery**](https://github.com/NeoPhukubye/god-s-grace-bakery) | Bakery business web application | JavaScript |
 | [**Gridlock 808**](https://github.com/NeoPhukubye/gridlock-808) | Multiplayer cyberpunk hacking game for Game Boy Advance (GBA Jam 2026) | C++ |
 | [**Radeon Hackathon 2026**](https://github.com/NeoPhukubye/Radeon-hackathon-2026-07) | AMD Radeon hackathon project (July 2026) | Python |
+| [**Kasi Compass**](https://github.com/NeoPhukubye/Kasi_Compass) | Community-focused platform (WIP) | - |
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=FF0080&height=3&section=header" width="100%"/>
 
