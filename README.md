@@ -49,6 +49,8 @@ Software Engineering student at **WeThinkCode_** based in Midrand, South Africa.
 | [**ForgeMind AI**](https://github.com/NeoPhukubye/forgemind-ai) | Multi-agent AI software engineering assistant (AMD Developer Hackathon) | JavaScript |
 | [**FlowStateAssist**](https://github.com/NeoPhukubye/FlowStateAssist) | AI executive dysfunction decomposer & micro-step pacer for ADHD/TBI/chronic fatigue | Python |
 | [**Support Agent**](https://github.com/NeoPhukubye/Support_Agent) | Agentic AI customer support with LangGraph, vector KB, and human escalation (AWS Hackathon) | JavaScript |
+| [**Argus**](https://github.com/NeoPhukubye/Argus) | Multi-agent codebase evaluator for self-check & reviewer modes with a mutation-check verification layer (micro1 Agentic Workflows Hackathon 2026) | Python |
+| [**DirectorGPT**](https://github.com/NeoPhukubye/DirectorGPT) | AI-powered multi-agent film production studio (screenwriter, casting, sound design, editor agents) | Python |
 
 ### ✨ Infrastructure & DevOps
 
