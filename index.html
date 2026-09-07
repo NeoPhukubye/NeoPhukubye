@@ -404,14 +404,59 @@
     50% { opacity: 0.4; }
   }
 
+  /* ── BLOOM INTRO ── */
+  #bloom-overlay {
+    position: fixed; inset: 0; z-index: 99999;
+    background: var(--bg);
+    display: flex; align-items: center; justify-content: center;
+    transition: opacity 1.3s ease;
+  }
+  #bloom-overlay.fade { opacity: 0; pointer-events: none; }
+  #bloom-canvas { position: absolute; inset: 0; }
+  #bloom-hint {
+    position: absolute; bottom: 40px; left: 50%;
+    transform: translateX(-50%);
+    font-family: var(--mono); font-size: 11px;
+    color: var(--text-muted); letter-spacing: 0.3em;
+    opacity: 0; transition: opacity 0.8s;
+    pointer-events: none;
+  }
+  #bloom-text {
+    position: absolute; top: 56%; left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; opacity: 0;
+    transition: opacity 0.8s ease; pointer-events: none;
+  }
+  #bloom-text .welcome-line {
+    font-family: var(--mono); font-size: 20px; font-weight: 500;
+    color: var(--pink-pale); letter-spacing: 0.5em;
+    text-shadow: 0 0 24px rgba(255,0,128,0.45);
+  }
+  #bloom-text .name-line {
+    font-family: var(--sans); font-size: 12px;
+    color: var(--text-muted); letter-spacing: 0.3em;
+    margin-top: 12px;
+  }
+
   @media (prefers-reduced-motion: reduce) {
     html { scroll-behavior: auto; }
     #petal-canvas { display: none; }
     .live-badge::before { animation: none; }
+    #bloom-overlay { display: none; }
   }
 </style>
 </head>
 <body>
+
+<!-- ═══════════════ BLOOM INTRO ═══════════════ -->
+<div id="bloom-overlay">
+  <canvas id="bloom-canvas"></canvas>
+  <div id="bloom-text">
+    <div class="welcome-line">WELCOME 🌸</div>
+    <div class="name-line">NEO PHUKUBYE</div>
+  </div>
+  <div id="bloom-hint">click to open</div>
+</div>
 
 <!-- ═══════════════ NAV ═══════════════ -->
 <header>
@@ -905,6 +950,136 @@
   resize();
   init();
   draw();
+})();
+
+/* ═══════════════ BLOOM INTRO ═══════════════ */
+(function () {
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (reduce) return;
+
+  var canvas = document.getElementById('bloom-canvas');
+  var ctx = canvas.getContext('2d');
+  var overlay = document.getElementById('bloom-overlay');
+  var textEl = document.getElementById('bloom-text');
+  var hintEl = document.getElementById('bloom-hint');
+  var W, H, cx, cy, petals = [], burst = [];
+
+  var PINKS = ['#FF0080', '#FF1493', '#FF69B4', '#FFB6D9', '#c084fc'];
+
+  function resize() {
+    W = canvas.width = window.innerWidth;
+    H = canvas.height = window.innerHeight;
+    cx = W / 2; cy = H / 2;
+  }
+
+  function makePetal(angle, dist, speed, scale) {
+    return {
+      a: angle, d: dist, s: speed, sc: scale,
+      rot: Math.random() * Math.PI * 2,
+      rs: (Math.random() - 0.5) * 0.04,
+      vx: Math.cos(angle) * speed * 0.3,
+      vy: Math.sin(angle) * speed * 0.3 - 0.2,
+      life: 1, color: PINKS[(Math.random() * PINKS.length) | 0]
+    };
+  }
+
+  function drawPetal(x, y, r, rot, alpha) {
+    ctx.save();
+    ctx.globalAlpha = alpha;
+    ctx.translate(x, y);
+    ctx.rotate(rot);
+    var grad = ctx.createRadialGradient(0, 0, 0, 0, 0, r);
+    var c = ctx.createLinearGradient(-r, 0, r, 0);
+    c.addColorStop(0, 'rgba(255,182,219,0)');
+    c.addColorStop(0.4, 'rgba(255,105,180,' + alpha + ')');
+    c.addColorStop(1, 'rgba(255,0,128,' + alpha + ')');
+    ctx.fillStyle = c;
+    ctx.beginPath();
+    ctx.moveTo(0, -r * 0.4);
+    ctx.bezierCurveTo(r * 0.9, -r * 0.9, r * 0.9, r * 0.9, 0, r * 0.4);
+    ctx.bezierCurveTo(-r * 0.9, r * 0.9, -r * 0.9, -r * 0.9, 0, -r * 0.4);
+    ctx.closePath();
+    ctx.fill();
+    ctx.restore();
+  }
+
+  var t0 = null;
+  function frame(ts) {
+    if (!t0) t0 = ts;
+    var t = ts - t0;
+    var ease = function (p) { return p < 0.5 ? 2 * p * p : 1 - Math.pow(-2 * p + 2, 2) / 2; };
+
+    ctx.clearRect(0, 0, W, H);
+
+    var phase = t < 1600 ? 'bloom' : 'burst';
+    var p = Math.min(t / 1600, 1);
+    var e = ease(p);
+
+    // core glow
+    var glowR = 10 + 120 * e;
+    var g = ctx.createRadialGradient(cx, cy, 0, cx, cy, glowR);
+    g.addColorStop(0, 'rgba(255,105,180,' + (0.5 * e) + ')');
+    g.addColorStop(1, 'rgba(255,0,128,0)');
+    ctx.fillStyle = g;
+    ctx.fillRect(0, 0, W, H);
+
+    // unfurling petals (bloom phase)
+    if (phase === 'burst') {
+      var N = 16;
+      for (var i = 0; i < N; i++) {
+        var ang = (i / N) * Math.PI * 2;
+        var dist = 18 * e;
+        var px = cx + Math.cos(ang) * dist;
+        var py = cy + Math.sin(ang) * dist;
+        var r = (22 + 14 * e);
+        drawPetal(px, py, r, ang + Math.PI / 2, 0.55 * e);
+      }
+    }
+
+    // burst petals scatter outward
+    if (t > 1500 && burst.length < 40) {
+      for (var k = 0; k < 4; k++) {
+        var a2 = Math.random() * Math.PI * 2;
+        var sp = 1.5 + Math.random() * 3.5;
+        burst.push(makePetal(a2, 0, sp, 1));
+      }
+    }
+    for (var j = burst.length - 1; j >= 0; j--) {
+      var b = burst[j];
+      b.a += b.rs;
+      b.d += b.s;
+      b.life -= 0.012;
+      if (b.life <= 0) { burst.splice(j, 1); continue; }
+      var bx = cx + Math.cos(b.a) * b.d;
+      var by = cy + Math.sin(b.a) * b.d;
+      drawPetal(bx, by, 16 * b.sc * b.life, b.a, b.life * 0.7);
+    }
+
+    // text + hint fade in
+    if (t > 700) {
+      var te = ease(Math.min((t - 700) / 400, 1));
+      textEl.style.opacity = te;
+      if (t > 1900) {
+        hintEl.style.opacity = ease(Math.min((t - 1900) / 400, 1));
+      }
+    }
+
+    if (t < 3600) {
+      requestAnimationFrame(frame);
+    } else {
+      overlay.classList.add('fade');
+      setTimeout(function () { overlay.style.display = 'none'; }, 1400);
+    }
+  }
+
+  overlay.addEventListener('click', function () {
+    overlay.classList.add('fade');
+    setTimeout(function () { overlay.style.display = 'none'; }, 1400);
+  });
+
+  window.addEventListener('resize', resize);
+  resize();
+  requestAnimationFrame(frame);
 })();
 </script>
 
