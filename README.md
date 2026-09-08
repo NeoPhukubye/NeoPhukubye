@@ -74,7 +74,7 @@ Software Engineering student at **WeThinkCode_** based in Midrand, South Africa.
 ## 🌸 GitHub Streak
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=NeoPhukubye&theme=radical&hide_border=true&background=0D1117&ring=FF0080&fire=FF0080&currStreakLabel=FF69B4&sideLabels=FF69B4&dates=FF1493&stroke=FF0080" alt="GitHub Streak"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=NeoPhukubye&theme=radical&hide_border=true&background=0D1117&ring=FF0080&fire=FF0080&currStreakLabel=FF69B4&sideLabels=FF69B4&dates=FF1493&stroke=FF0080&timezone=Africa/Johannesburg&v=1" alt="GitHub Streak"/>
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=FF0080&height=3&section=header" width="100%"/>
