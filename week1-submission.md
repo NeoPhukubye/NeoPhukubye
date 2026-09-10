@@ -62,7 +62,7 @@ A CV says "Python, AI, multi-agent systems" — the same three words a thousand 
 | Section | Purpose |
 |---------|---------|
 | Hero | States the claim in under 5 seconds, drives to email or proof |
-| About | Establishes credibility (WeThinkCode_, hackathon wins), links all 4 systems into one narrative |
+| About | Establishes credibility (hackathon wins), links all 4 systems into one narrative |
 | Case Studies | The proof — each card shows a different scale of multi-agent coordination |
 | Stack chips | Supporting detail only, not a section worth navigating to |
 | Contact | The one action, made visually dominant |
@@ -86,7 +86,7 @@ A CV says "Python, AI, multi-agent systems" — the same three words a thousand 
 You are my portfolio build partner for a 10-week track.
 
 WHO I AM:
-Neo Phukubye, software engineer at WeThinkCode_ (Midrand, South Africa).
+Neo Phukubye, software engineer based in Midrand, South Africa.
 I specialize in multi-agent AI backend systems.
 
 MY PROOF STATEMENT:
