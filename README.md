@@ -14,7 +14,7 @@
 
 ## 🌸 About
 
-Software Engineering student at **WeThinkCode_** based in Midrand, South Africa. I specialize in building AI-powered applications that combine multi-agent architectures, modern web frontends, and robust backend systems.
+Software engineer based in Midrand, South Africa. I specialize in building AI-powered applications that combine multi-agent architectures, modern web frontends, and robust backend systems.
 
 **Core focus areas:** Multi-Agent AI Systems | Backend Engineering | Cloud-Native Applications | DevOps
 
