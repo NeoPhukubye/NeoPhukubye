@@ -66,7 +66,7 @@ Software engineer based in Midrand, South Africa. I specialize in building AI-po
 | Project | Description | Tech |
 |---------|-------------|------|
 | [**God's Grace Bakery**](https://github.com/NeoPhukubye/god-s-grace-bakery) | Bakery business web application | JavaScript |
-| [**Gridlock 808**](https://github.com/NeoPhukubye/gridlock-808) | Multiplayer cyberpunk hacking game for Game Boy Advance (GBA Jam 2026) | C++ |
+| [**Gridlock 808**](https://github.com/NeoPhukubye/gridlock-808) | Fast-paced grid-based cyberpunk hacking race for GBA Jam 2026 — 2-4 player head-to-head via Game Link Cable | C++ |
 | [**Radeon Hackathon 2026**](https://github.com/NeoPhukubye/Radeon-hackathon-2026-07) | AMD Radeon hackathon project (July 2026) | Python |
 | [**Kasi Compass**](https://github.com/NeoPhukubye/Kasi_Compass) | Community-focused platform (WIP) | - |
 | [**hackerrank-orchestrate-september26**](https://github.com/NeoPhukubye/hackerrank-orchestrate-september26) | HackerRank orchestration challenge (Python) | Python |
