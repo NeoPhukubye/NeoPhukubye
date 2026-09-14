@@ -57,7 +57,7 @@ Software engineer based in Midrand, South Africa. I specialize in building AI-po
 | Project | Description | Tech |
 |---------|-------------|------|
 | [**ForgePipeline AI**](https://github.com/NeoPhukubye/ForgePipeline-AI) | Agentic cloud platform for Docker containerization and deployment automation | Python |
-| [**PAAS Command Center**](https://github.com/NeoPhukubye/paas-command-center) | AI-native enterprise command center integrating DevOps + Snowflake Cortex | Python |
+| [**PAAS Command Center**](https://github.com/NeoPhukubye/paas-command-center) | AI-native enterprise command center for DevOps logging, SaaS financials, and growth ML via Snowflake Cortex CoCo SDK | Python |
 | [**Automated E2E & API Test Suite**](https://github.com/NeoPhukubye/Automated-E2E--API-Test-Suite) | Comprehensive end-to-end and API automated test framework for SaaS platforms | Python |
 | [**AuditFlow**](https://github.com/NeoPhukubye/AuditFlow) | Python audit and compliance tool | Python |
 
