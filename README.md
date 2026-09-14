@@ -45,7 +45,7 @@ Software engineer based in Midrand, South Africa. I specialize in building AI-po
 | [**FinPilot AI**](https://github.com/NeoPhukubye/FinPilot-AI) | Intelligent financial assistant for analysis and decision support | TypeScript |
 | [**PulsePM AI**](https://github.com/NeoPhukubye/PulsePM-AI) | 6 autonomous AI agents for real-time project monitoring, risk prediction, standups & executive insights | JavaScript |
 | [**ForgeMind OS**](https://github.com/NeoPhukubye/Forgemind-OS) | Multi-agent AI operating system for software engineering workflows | TypeScript |
-| [**VibeCoach AI Mentor**](https://github.com/NeoPhukubye/vibecoach-ai-mentor) | AI-powered mentoring platform with sentiment analysis and personalized coaching | TypeScript |
+| [**VibeCoach AI Mentor**](https://github.com/NeoPhukubye/vibecoach-ai-mentor) | AI-powered mentoring platform with personalized coaching, sentiment analysis & actionable guidance | TypeScript |
 | [**ForgeMind AI**](https://github.com/NeoPhukubye/forgemind-ai) | Multi-agent AI software engineering assistant (AMD Developer Hackathon) | JavaScript |
 | [**FlowStateAssist**](https://github.com/NeoPhukubye/FlowStateAssist) | AI executive dysfunction decomposer & micro-step pacer for ADHD/TBI/chronic fatigue | Python |
 | [**Support Agent**](https://github.com/NeoPhukubye/Support_Agent) | Agentic AI customer support with LangGraph, vector KB, and human escalation (AWS Hackathon) | JavaScript |
