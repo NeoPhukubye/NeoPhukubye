@@ -59,6 +59,7 @@ Software engineer based in Midrand, South Africa. I specialize in building AI-po
 | [**ForgePipeline AI**](https://github.com/NeoPhukubye/ForgePipeline-AI) | Agentic cloud platform for Docker containerization and deployment automation | Python |
 | [**PAAS Command Center**](https://github.com/NeoPhukubye/paas-command-center) | AI-native enterprise command center integrating DevOps + Snowflake Cortex | Python |
 | [**Automated E2E & API Test Suite**](https://github.com/NeoPhukubye/Automated-E2E--API-Test-Suite) | Comprehensive end-to-end and API automated test framework for SaaS platforms | Python |
+| [**AuditFlow**](https://github.com/NeoPhukubye/AuditFlow) | Python audit and compliance tool | Python |
 
 ### ✨ Other
 
@@ -68,6 +69,8 @@ Software engineer based in Midrand, South Africa. I specialize in building AI-po
 | [**Gridlock 808**](https://github.com/NeoPhukubye/gridlock-808) | Multiplayer cyberpunk hacking game for Game Boy Advance (GBA Jam 2026) | C++ |
 | [**Radeon Hackathon 2026**](https://github.com/NeoPhukubye/Radeon-hackathon-2026-07) | AMD Radeon hackathon project (July 2026) | Python |
 | [**Kasi Compass**](https://github.com/NeoPhukubye/Kasi_Compass) | Community-focused platform (WIP) | - |
+| [**hackerrank-orchestrate-september26**](https://github.com/NeoPhukubye/hackerrank-orchestrate-september26) | HackerRank orchestration challenge (Python) | Python |
+| [**solari-cookbook**](https://github.com/NeoPhukubye/solari-cookbook) | Fork of solari-sdk's cookbook example | JavaScript |
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=FF0080&height=3&section=header" width="100%"/>
 
