@@ -43,7 +43,7 @@ Software engineer based in Midrand, South Africa. I specialize in building AI-po
 | [**TruthLens AI**](https://github.com/NeoPhukubye/TruthLens-AI) | AI-powered misinformation detection and fact-checking platform | TypeScript |
 | [**Momo SmartMoney AI**](https://github.com/NeoPhukubye/Momo-SmartMoney-AI) | Smart money management AI assistant | Python |
 | [**FinPilot AI**](https://github.com/NeoPhukubye/FinPilot-AI) | Intelligent financial assistant for analysis and decision support | TypeScript |
-| [**PulsePM AI**](https://github.com/NeoPhukubye/PulsePM-AI) | 6 autonomous AI agents for project monitoring, risk prediction, and executive insights | JavaScript |
+| [**PulsePM AI**](https://github.com/NeoPhukubye/PulsePM-AI) | 6 autonomous AI agents for real-time project monitoring, risk prediction, standups & executive insights | JavaScript |
 | [**ForgeMind OS**](https://github.com/NeoPhukubye/Forgemind-OS) | Multi-agent AI operating system for software engineering workflows | TypeScript |
 | [**VibeCoach AI Mentor**](https://github.com/NeoPhukubye/vibecoach-ai-mentor) | AI-powered mentoring platform with sentiment analysis and personalized coaching | TypeScript |
 | [**ForgeMind AI**](https://github.com/NeoPhukubye/forgemind-ai) | Multi-agent AI software engineering assistant (AMD Developer Hackathon) | JavaScript |
