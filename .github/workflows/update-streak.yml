@@ -1,0 +1,33 @@
+name: Update GitHub Streak Image
+
+# Re-renders the README streak-stats image daily so the
+# contribution count stays current (the upstream endpoint
+# caches the SVG for 24h, so a cache-buster bump forces a refresh).
+on:
+  schedule:
+    - cron: '0 0 * * *'   # every day at 00:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-streak:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Bump streak cache-buster in README
+        run: |
+          DATE=$(date +%Y%m%d)
+          # Replace any existing v= cache-buster with today's date
+          sed -i -E "s/&v=[0-9]+\"/&v=${DATE}\"/" README.md
+          # If no cache-buster is present, append one
+          grep -q '&v=' README.md || sed -i "s|github-readme-streak-stats.herokuapp.com?user=NeoPhukubye|&v=${DATE}|" README.md
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "Update streak stats cache-buster [skip ci]"
