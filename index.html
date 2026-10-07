@@ -404,6 +404,23 @@
     50% { opacity: 0.4; }
   }
 
+  /* ── LIVE GITHUB STREAK ── */
+  .streak-section { background: var(--bg-raised); }
+  .streak-box {
+    display: flex; justify-content: center;
+    padding: 20px;
+    background: var(--bg-card);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    overflow: auto;
+  }
+  .streak-svg { width: 100%; max-width: 760px; height: auto; display: block; border-radius: var(--radius-sm); }
+  .streak-note {
+    text-align: center; margin-top: 14px;
+    font-family: var(--mono); font-size: 11px; color: var(--text-muted);
+    letter-spacing: 0.04em;
+  }
+
   /* ── BLOOM INTRO ── */
   #bloom-overlay {
     position: fixed; inset: 0; z-index: 99999;
@@ -493,6 +510,20 @@
     <div class="hero-stats">
       <div class="stat"><b>6</b><span>AGENTS IN PRODUCTION</span></div>
       <div class="stat"><b>4</b><span>FULL-STACK MULTI-AGENT SYSTEMS</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════ LIVE GITHUB STREAK ═══════════════ -->
+<section class="streak-section">
+  <div class="wrap">
+    <div class="section-header">
+      <div class="kicker">GitHub Streak <span class="live-badge">LIVE</span></div>
+      <h2>Building every day ✦</h2>
+    </div>
+    <div class="streak-box">
+      <img id="streak-img" class="streak-svg" alt="GitHub contribution streak" />
+      <p class="streak-note">Updates automatically from GitHub every minute.</p>
     </div>
   </div>
 </section>
@@ -1075,6 +1106,23 @@
   window.addEventListener('resize', resize);
   resize();
   requestAnimationFrame(frame);
+})();
+</script>
+
+<!-- ═══════════════ LIVE GITHUB STREAK ═══════════════ -->
+<script>
+(function () {
+  var img = document.getElementById('streak-img');
+  var base = 'https://github-readme-streak-stats.herokuapp.com?user=NeoPhukubye&theme=radical&hide_border=true&background=0D1117&ring=FF0080&fire=FF0080&currStreakLabel=FF69B4&sideLabels=FF69B4&dates=FF1493&stroke=FF0080&timezone=Africa/Johannesburg';
+
+  function load() {
+    // cache-buster forces the endpoint to re-render current streak
+    img.src = base + '&v=' + Date.now();
+  }
+
+  load();
+  // refresh every minute so the streak updates in real time
+  setInterval(load, 60000);
 })();
 </script>
 
