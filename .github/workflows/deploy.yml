@@ -27,4 +27,36 @@ jobs:
         with:
           path: .
       - id: deployment
-        uses: actions/deploy-pages@v4
+        name: Create Pages deployment (with retry)
+        uses: actions/github-script@v7
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          ARTIFACT_ID: ${{ steps.upload-pages-artifact.outputs.artifact_id }}
+        with:
+          script: |
+            const maxAttempts = 4;
+            let deploymentId;
+            let pageUrl;
+            for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+              try {
+                const res = await github.request('POST /repos/{owner}/{repo}/pages/deployments', {
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  artifact_id: Number(process.env.ARTIFACT_ID),
+                  pages_build_version: context.sha
+                });
+                deploymentId = res.data.id;
+                pageUrl = res.data.url;
+                core.setOutput('deployment_id', deploymentId);
+                core.setOutput('page_url', pageUrl);
+                console.log('Pages deployment created:', deploymentId, pageUrl);
+                break;
+              } catch (err) {
+                const status = err.status || 'unknown';
+                console.log(`Attempt ${attempt} failed: status=${status} message=${err.message}`);
+                if (attempt === maxAttempts) throw err;
+                const waitMs = 5000 * attempt;
+                console.log(`Waiting ${waitMs}ms then retrying...`);
+                await new Promise(r => setTimeout(r, waitMs));
+              }
+            }
