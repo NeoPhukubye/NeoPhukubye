@@ -17,9 +17,9 @@
 
 Software engineer based in Midrand, South Africa, focused on **Backend AI & Cybersecurity Engineering** — building scalable FastAPI backends, intelligent multi-agent systems, and robust SOC security architectures.
 
-My work spans multi-agent AI orchestration, network security operations, and DevOps automation: coordinated agent pipelines for real production work, CI/CD infrastructure that ships reliable systems, and a Cisco CyberOps certification earned at the **Mastered** level (95% across 28 modules).
+My work spans multi-agent AI orchestration, network security operations, and DevOps automation: coordinated agent pipelines for real production work, CI/CD infrastructure that ships reliable systems, and ongoing study toward the Cisco CyberOps Associate certification.
 
-Currently a **FlyRank AI Remote Backend AI Engineering Intern**, a **Cisco Networking Academy CyberOps Associate (Mastered)**, and a **DataCamp Data Science & AI Scholar**. Open to roles, collaborations, and security/AI projects.
+Currently a **FlyRank AI Remote Backend AI Engineering Intern**, a **Cisco Networking Academy CyberOps Associate candidate**, and a **DataCamp Data Science & AI Scholar**. Open to roles, collaborations, and security/AI projects.
 
 **Core focus areas:** Multi-Agent AI Systems | Backend Engineering | Cloud-Native & DevOps | SOC & Cybersecurity
 
@@ -35,11 +35,11 @@ Currently a **FlyRank AI Remote Backend AI Engineering Intern**, a **Cisco Netwo
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=FF0080&height=3&section=header" width="100%"/>
 
-## 🌸 Certifications & Milestones
+## 🌸 Certifications & Learning
 
 | Certification | Level | Focus |
 |---------------|-------|-------|
-| **Cisco Networking Academy — CyberOps Associate** | Mastered (95% overall, 28 modules) | SOC Operations · Incident Response · Cryptography · Endpoint Protection · Network Security Data Analysis |
+| **Cisco Networking Academy — CyberOps Associate** | In Progress | SOC Operations · Incident Response · Cryptography · Endpoint Protection · Network Security Data Analysis |
 | **DataCamp — Data Science & AI Scholar** | Scholar | Data science and AI through hands-on learning and practical projects |
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=FF0080&height=3&section=header" width="100%"/>
@@ -124,7 +124,7 @@ Currently a **FlyRank AI Remote Backend AI Engineering Intern**, a **Cisco Netwo
 
 - 🛠️ Backend AI engineering as a FlyRank AI Remote Backend AI Engineering Intern
 - 🤖 Shipping production multi-agent systems (ForgeMind OS, PulsePM AI)
-- 🔐 Deepening SOC & security operations work (Cisco CyberOps Mastered)
+- 🔐 Deepening SOC & security operations work (Cisco CyberOps Associate — in progress)
 - 🏆 Competing in hackathons (AMD Developer, Geekulcha, Mukuru, Pinch)
 - ☁️ Scaling DevOps and cloud-native deployment pipelines
 - 🌐 Contributing to open source and open to collaborations
