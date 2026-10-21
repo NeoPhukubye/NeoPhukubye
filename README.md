@@ -30,7 +30,6 @@ Currently a **FlyRank AI Remote Backend AI Engineering Intern**, a **Cisco Netwo
 | Organisation | Role | Details |
 |--------------|------|---------|
 | **FlyRank AI** | Remote Backend AI Engineering Intern | Building intelligent backend systems and AI-powered applications — scalable backend architecture and AI integration |
-| **Emerson Empire** | Global Internship Program Participant (Fall 2026) | International exposure and hands-on engineering experience in a cross-border environment |
 | **Aspire Leaders Program** | Cohort 3 Scholar (2026) | Selected scholar developing leadership and professional skills alongside technical expertise |
 | **Orange Cyberdefense SensePost Academy** | Technical Challenge Participant | Hands-on cybersecurity challenges using real-world scenarios and simulations |
 
