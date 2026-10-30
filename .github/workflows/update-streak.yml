@@ -23,6 +23,7 @@ jobs:
           # Replace any existing v= cache-buster with today's date
           sed -i -E "s/&v=[0-9]+\"/&v=${DATE}\"/" README.md
           # If no cache-buster is present, append one
+          grep -q '&v=' README.md || sed -i "s|streak-stats.demolab.com?user=NeoPhukubye|&v=${DATE}|" README.md
           grep -q '&v=' README.md || sed -i "s|github-readme-streak-stats.herokuapp.com?user=NeoPhukubye|&v=${DATE}|" README.md
 
       - name: Commit if changed
