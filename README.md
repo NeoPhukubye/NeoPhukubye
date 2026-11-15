@@ -19,7 +19,7 @@ Software engineer based in Midrand, South Africa, focused on **Backend AI & Cybe
 
 My work spans multi-agent AI orchestration, network security operations, and DevOps automation: coordinated agent pipelines for real production work, CI/CD infrastructure that ships reliable systems, and ongoing study toward the Cisco CyberOps Associate certification.
 
-Currently a **FlyRank AI Remote Backend AI Engineering Intern**, a **Cisco Networking Academy CyberOps Associate candidate**, and a **DataCamp Data Science & AI Scholar**. Open to roles, collaborations, and security/AI projects.
+Currently a **Junior Software Developer at Genghis Technology** (since 9 November 2026), a **FlyRank AI Remote Backend AI Engineering Intern**, a **Cisco Networking Academy CyberOps Associate candidate**, and a **DataCamp Data Science & AI Scholar**. Open to collaborations and security/AI projects.
 
 **Core focus areas:** Multi-Agent AI Systems | Backend Engineering | Cloud-Native & DevOps | SOC & Cybersecurity
 
@@ -29,6 +29,7 @@ Currently a **FlyRank AI Remote Backend AI Engineering Intern**, a **Cisco Netwo
 
 | Organisation | Role | Details |
 |--------------|------|---------|
+| **Genghis Technology** | Junior Software Developer | Since 9 November 2026 — contributing to software development and engineering initiatives |
 | **FlyRank AI** | Remote Backend AI Engineering Intern | Building intelligent backend systems and AI-powered applications — scalable backend architecture and AI integration |
 | **Aspire Leaders Program** | Cohort 3 Scholar (2026) | Selected scholar developing leadership and professional skills alongside technical expertise |
 | **Orange Cyberdefense SensePost Academy** | Technical Challenge Participant | Hands-on cybersecurity challenges using real-world scenarios and simulations |
@@ -122,6 +123,7 @@ Currently a **FlyRank AI Remote Backend AI Engineering Intern**, a **Cisco Netwo
 
 ## 🌸 Current Focus
 
+- 🛠️ Junior Software Developer at Genghis Technology (since 9 November 2026)
 - 🛠️ Backend AI engineering as a FlyRank AI Remote Backend AI Engineering Intern
 - 🤖 Shipping production multi-agent systems (ForgeMind OS, PulsePM AI)
 - 🔐 Deepening SOC & security operations work (Cisco CyberOps Associate — in progress)

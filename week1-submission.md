@@ -86,7 +86,7 @@ A CV says "Python, AI, multi-agent systems" — the same three words a thousand 
 You are my portfolio build partner for a 10-week track.
 
 WHO I AM:
-Neo Phukubye, software engineer based in Midrand, South Africa.
+Neo Phukubye, Junior Software Developer at Genghis Technology (since 9 November 2026), based in Midrand, South Africa.
 I specialize in multi-agent AI backend systems.
 
 MY PROOF STATEMENT:
