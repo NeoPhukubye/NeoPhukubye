@@ -32,7 +32,6 @@ Currently a **Junior Software Developer at Genghis Technology** (since 9 Novembe
 | **Genghis Technology** | Junior Software Developer | Since 9 November 2026 — contributing to software development and engineering initiatives |
 | **FlyRank AI** | Remote Backend AI Engineering Intern (Completed) | Built intelligent backend systems and AI-powered applications — scalable backend architecture and AI integration |
 | **Aspire Leaders Program** | Cohort 3 Scholar (2026) | Selected scholar developing leadership and professional skills alongside technical expertise |
-| **Orange Cyberdefense SensePost Academy** | Technical Challenge Participant | Hands-on cybersecurity challenges using real-world scenarios and simulations |
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=FF0080&height=3&section=header" width="100%"/>
 
